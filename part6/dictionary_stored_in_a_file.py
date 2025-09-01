@@ -73,13 +73,13 @@ def word_searching_and_adding():
         if function == 1:
             the_word_in_french = input("The word in French:")
             the_word_in_english = input("The word in English:")
-            with open("my_dictionary.str", "w") as word_dictionary:
+            with open("dictionary.txt", "w") as word_dictionary:
                 word_dictionary.write(the_word_in_french)
                 word_dictionary.write(the_word_in_english)
                 word_dictionary.write("\n")
         elif function == 2:
             ask_for_word = input("Search term:")
-            with open("my_dictionary.str") as word_dictionary:
+            with open("dictionary.txt") as word_dictionary:
                 reading_in_the_file = word_dictionary.read()
                 if ask_for_word in reading_in_the_file:
                     print(f"{ask_for_word} - other word corresponding")

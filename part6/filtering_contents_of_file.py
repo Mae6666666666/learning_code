@@ -54,6 +54,7 @@ def math_add_sub(first_number:int, math_symbol:str, second_number):
     return total
 # result = math(3, "-", 2)
 # print(result) #should return the result
+
 def filter_solutions():
     incorrect = []
     correct = []
