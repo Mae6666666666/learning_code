@@ -1,0 +1,10 @@
+song_id,album_id,title,duration_sec,track_number
+S0001,A0001,Feel Good Inc,219,6
+S0002,A0001,DARE,254,10
+S0003,A0002,On Melancholy Hill,233,10
+S0010,A0010,Paranoid Android,386,2
+S0011,A0010,No Surprises,229,10
+S0012,A0011,Nude,258,3
+S0020,A0020,Harder Better Faster Stronger,224,4
+S0030,A0030,Do I Wanna Know,272,1
+S0040,A0040,Come Together,259,1
