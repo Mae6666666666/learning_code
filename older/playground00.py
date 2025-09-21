@@ -56,3 +56,26 @@ match gorillaz:
 #
 # print(test00)
 
+user_name = "Mae"
+
+match user_name:
+    case "Kim":
+        print("Hello Kim!")
+    case "Abe":
+        print("Hey Abe!")
+    case "Mae":
+        print("Hi Mae!")
+    case _:
+        print("Unknown user")
+
+value = 32
+
+match value:
+    case n if 0 <= n <= 10:
+        print("Between 0 and 10")
+    case n if 11 <= n <= 20:
+        print("Between 11 and 20")
+    case n if 21 <= n <= 50:
+        print("Between 21 and 50")
+    case _:
+        print("Out of range")

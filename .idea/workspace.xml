@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0b7cf04-460e-4b37-94f0-ad2d1c155217" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lessons/week1/lesson1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part 7/hypotenuse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/older/playground00.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part6/fractions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week2/lesson2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week2/project1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/special_characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/referrence.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db_00/music_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_00/music_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/older/playground00.py" beforeDir="false" afterPath="$PROJECT_DIR$/older/playground00.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refference.py" beforeDir="false" afterPath="$PROJECT_DIR$/refference.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,25 +40,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.dictionary_stored_in_a_file.executor": "Run",
-    "Python.dictionary_stored_in_a_file_new.executor": "Run",
-    "Python.fractions.executor": "Run",
-    "Python.hypotenuse.executor": "Run",
-    "Python.incorrect lottery new.executor": "Run",
-    "Python.incorrect lottery numbers.executor": "Run",
-    "Python.lesson1.executor": "Run",
-    "Python.music_db.executor": "Run",
-    "Python.playground00.executor": "Run",
-    "Python.refference.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "NewFiles000",
-    "last_opened_file_path": "/Users/Mae/git/learning_code/db_00",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.dictionary_stored_in_a_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dictionary_stored_in_a_file_new.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fractions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hypotenuse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.incorrect lottery new.executor&quot;: &quot;Run&quot;,
+    &quot;Python.incorrect lottery numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.music_db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playground00.executor&quot;: &quot;Run&quot;,
+    &quot;Python.project1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.refference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.special_characters.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;NewFiles000&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Mae/git/learning_code/db_00&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/db_00" />

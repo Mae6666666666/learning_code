@@ -36,24 +36,32 @@ import pandas as pd
 class MusicDb:
     bands_file_name = "bands.csv"
     album_file_name = "albums.csv"
+    songs_file_name = "songs.csv"
 
 
     def load_data(self):
         self.bands = pd.read_csv(self.bands_file_name)
         self.albums = pd.read_csv(self.album_file_name)
+        self.songs = pd.read_csv(self.songs_file_name)
 
 
     def search_by_band_name(self, band_name):
         gorillaz_record = self.bands[self.bands["name"] == band_name]
         print(gorillaz_record)
 
+    # you make a def function and put self, an argument in it so its not hardcoded what ur looking for
+    # then we make variables and include the self. at the start to remind the class it is in that we can use whatever is also in different defines but are still in classe
+    # we have to locate whatever we want with .loc and use square brackets to find the name of whar were searching for. use .value at the end with the [0]
     def search_by_album_name(self, album_title):
-        band_id = self.albums.loc[self.albums["title"] == album_title, "band_id"][0]
-        finding_band = self.bands[self.bands["band_id"] == band_id]
-        print(finding_band)
+        band_id = self.albums.loc[self.albums["title"] == album_title, "band_id"].values[0]
+        band_record = self.bands.loc[self.bands["band_id"] == band_id]
+        print(band_record)
 
-
-
+    def search_band_name_by_song_name(self, song_name):
+        album_id = self.songs.loc[self.songs["title"] == song_name, "album_id"].values[0]
+        band_id = self.albums.loc[self.albums["album_id"] == album_id, "band_id"].values[0]
+        band_name = self.bands.loc[self.bands["band_id"] == band_id, "name"].values[0]
+        return band_name
 
 
 
@@ -61,6 +69,7 @@ class MusicDb:
 my_built_music_db = MusicDb()
 
 my_built_music_db.load_data()
-my_built_music_db.search_by_band_name("Radiohead")
-my_built_music_db.search_by_album_name("In Rainbows")
-
+# my_built_music_db.search_by_band_name("Gorillaz")
+# my_built_music_db.search_by_album_name("Plastic Beach")
+band_name = my_built_music_db.search_band_name_by_song_name("Feel Good Inc")
+print(band_name)

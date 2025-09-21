@@ -95,10 +95,60 @@ def using_pandas():
     bands = pd.read_csv("db_00/bands.csv")
 
     # myvar = pandas.DataFrame(mydataset)
-    print(bands.loc[bands["band_id"] == "B0001", "name"])
+    band_name = bands.loc[ # locates whatever is in the square brackets
+        bands["band_id"] == "B0001", #search in bands.csv which looks specifically in the column named "band_id" for that band id
+        "name" # then in the band id number searcher (B0001), then it looks specifically for the column in that named "name"
+         ].values[0] # gets rid of the value in front of whatever you want to search with .values[0]
+
+
+    print(band_name) # prints the name of whatever has the band id of B0001, like Gorillaz for example
     # you use .loc to locate to the file it's attached to, then add the file nme in the square
     # then the name of what u want and then == to show it is equals to a certain key, so B0001 is
     # equals to Gorillaz in the file, and then we do the name
     # bit because that's what the band name it is stored in is called
     # print(myvar.loc[myvar["cars"] == "cars"])
 using_pandas()
+
+import random
+# this import lets you use a command called randint to randomly call out a
+# number that's between the range you give it. like so:
+def using_random():
+    number_picked = random.randint(1, 1000)
+    # this command picks a number between that range and stores it in number_picked
+    print(number_picked)
+# using_random()
+
+def using_case():
+    value = 32
+    match value:
+        # match will link the variable given to match and basically tell it that it wants to
+        # do a case statement
+        case n if 0 <= n <= 10:
+            # okay so, with the match value thing, it is saying as well that whatever
+            # you set the variable to (like n), it means value in this case and holds all of that data
+            # you put the if statement so it's like if 0 is less than or equal to n (value) or n (value)
+            # is less than or equal to 10 then it does whatever is below it
+
+            print("Between 0 and 10")
+        case n if 11 <= n <= 20:
+            print("Between 11 and 20")
+        case n if 21 <= n <= 50:
+            print("Between 21 and 50")
+        case _:
+            # this just means else. literally. it's like saying if none of the above apply, do this
+            print("Out of range")
+
+def using_match_more_simply():
+    user_name = "Kim"
+
+    match user_name:
+        case "Kim":
+            # literally just says if user_name is kim, do the below
+            print("Hello Kim!")
+        case "Abe":
+            print("Hey Abe!")
+        case "Mae":
+            print("Hi Mae!")
+        case _:
+            # else statement
+            print("Unknown user")
