@@ -15,25 +15,31 @@
 
 
 import string
-from string import punctuation
+from string import punctuation, ascii_letters
 
 calling_function = "Olé!!! Hey, are ümläüts wörking?"
 def separate_characters(my_string: str):
     characters = []
     punctuation_characters = []
     weird_characters = []
-    alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
     for letter in calling_function:
-        if letter == string.ascii_letters.find(letter):
+        
+        characters_index = string.ascii_letters.find(letter)
+        punctuation_index = string.punctuation.find(letter)
+
+        if characters_index >= 0:
             characters.append(letter)
-            print(characters)
-        elif letter == string.punctuation.find(letter):
+
+        elif punctuation_index >= 1:
             punctuation_characters.append(letter)
-            print(punctuation_characters)
 
         else:
             weird_characters.append(letter)
-            print(weird_characters)
+
+    print(characters)
+    print(punctuation_characters)
+    print(weird_characters)
+
 
 
 
@@ -47,3 +53,10 @@ def separate_characters(my_string: str):
     #     elif calling_function
     # return calling_function
 separate_characters(calling_function)
+
+# letter = "O"
+# index = string.ascii_letters.find(letter)
+# print(ascii_letters)
+# print(index)
+
+
