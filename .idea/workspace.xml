@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0b7cf04-460e-4b37-94f0-ad2d1c155217" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Part 7/fractionsTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part 7/lottery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part 7/password_generator1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week3/starter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/dice_roll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/random_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 7/special_characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Part 7/special_characters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/older/playground00.py" beforeDir="false" afterPath="$PROJECT_DIR$/older/playground00.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/referrence.sql" beforeDir="false" afterPath="$PROJECT_DIR$/referrence.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refference.py" beforeDir="false" afterPath="$PROJECT_DIR$/refference.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.dice_roll.executor": "Run",
     "Python.dictionary_stored_in_a_file.executor": "Run",
     "Python.dictionary_stored_in_a_file_new.executor": "Run",
     "Python.fractions.executor": "Run",
@@ -54,8 +57,10 @@
     "Python.password_generator1.executor": "Run",
     "Python.playground00.executor": "Run",
     "Python.project1.executor": "Run",
+    "Python.random_words.executor": "Run",
     "Python.refference.executor": "Run",
     "Python.special_characters.executor": "Run",
+    "Python.starter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "NewFiles000",

@@ -107,7 +107,7 @@ def using_pandas():
     # equals to Gorillaz in the file, and then we do the name
     # bit because that's what the band name it is stored in is called
     # print(myvar.loc[myvar["cars"] == "cars"])
-using_pandas()
+
 
 import random
 # this import lets you use a command called randint to randomly call out a
@@ -152,3 +152,27 @@ def using_match_more_simply():
         case _:
             # else statement
             print("Unknown user")
+
+# this lets you select random integers from the random function
+from random import randint
+def using_randint():
+    a_number = random.randint(1, 4)
+    print(a_number)
+
+
+# it gives u x amount of random values. e.g sample(list, amount of values)
+from random import sample
+def using_sample(amount: int, lower: int, upper: int):
+    # we set number pool into a list with the number range of whatever we put in the bottom,
+    # like 6 and 20 in this case
+    number_pool = list(range(lower, upper))
+    # we set weekly draw as a sample which contains whatever numbers we got from number pool and then
+    # the amount that we put in basically tells the code, hey, we only want the amount that is put in
+    # the bottom (1) to be in this variable
+    weekly_draw = sample(number_pool, amount)
+    # then we print the sorted version of the list weekly draw to put the numbers in order
+    print(sorted(weekly_draw))
+    return sorted(weekly_draw)
+using_sample(1, 6, 20)
+
+
