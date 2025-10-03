@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0b7cf04-460e-4b37-94f0-ad2d1c155217" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lessons/week4/test_my_work.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/week4/test_original_work.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/course_statistics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/courses_offered_at_uni.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/handling_json.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/handling_json_files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.a_users_input.executor": "Run",
+    "Python.course_statistics.executor": "Run",
     "Python.create.executor": "Run",
     "Python.dice_roll.executor": "Run",
     "Python.dictionaries_further_learning.executor": "Run",
@@ -45,6 +48,7 @@
     "Python.dictionary_stored_in_a_file_new.executor": "Run",
     "Python.fractions.executor": "Run",
     "Python.fractionsTest.executor": "Run",
+    "Python.handling_json_files.executor": "Run",
     "Python.how_old.executor": "Run",
     "Python.hypotenuse.executor": "Run",
     "Python.incorrect lottery new.executor": "Run",
