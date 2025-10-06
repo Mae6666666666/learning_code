@@ -175,4 +175,47 @@ def using_sample(amount: int, lower: int, upper: int):
     return sorted(weekly_draw)
 using_sample(1, 6, 20)
 
+# this will let u use a function that when called, can calculate seconds,minutes, hours, milliseconds etc
+import datetime
+def using_datetime():
+    # we make a new dictionary
+    student_db = {}
+    # open a file and name it sum else
+    with open("start_times.csv", "r") as start_times:
+        # for loop to go thru every element in the file
+        for element in start_times:
+            # this will get rid of \n bits and replace them with empty strings
+            getting_rid_of_semicolon = element.replace("\n", "")
+            # this will turn it into a list and take apart the elements where there is a semicolon (;)
+            getting_a_space = getting_rid_of_semicolon.split(";")
+            # this just gets the first item in the file which would be the name
+            student_name = getting_a_space[0]
+            # this gets the second item in it which would be the time
+            student_times = getting_a_space[1]
+            # this just adds start times to the dictionary
+            student_db[student_name]["start_time"] = student_times
+        #     loops thtu every student in the dictionary
+        for student in student_db:
+            # sets a variable as the students in the dictionary
+            student_times = student_db[student]
+            # basically says wherever the key start time is, the data in that now is in start time
+            start_time = student_times["start_time"]
+            # basically says wherever the key end time is, the data in that now is in end time
+            end_time = student_times["end_time"]
+            # this will have a variable that uses datetime.datetime.strptime.
+            # this basically just says were gonna need to figure out these times. the start time is given and its
+            # format is given after (the %H:%M)
+            start_datetime = datetime.datetime.strptime(start_time, "%H:%M")
+            # this does the exact same as start datetime, but it just gives the end time
+            end_datetime = datetime.datetime.strptime(end_time, "%H:%M")
+            # then we calculate the amount of hours that are different between the two
+            difference = end_datetime - start_datetime
+            # we convert that to seconds cuz its easier
+            difference_in_seconds = difference.total_seconds()
+            # if the difference is more than that number (3 hours) the code tells the student is a dirty cheating skank
+            if difference_in_seconds > 10800:
+                print(f"{student} is a dirty cheating skank")
+            # if not, it just says the student passed (boringgggg)
+            else:
+                print(f"{student} passed")
 
