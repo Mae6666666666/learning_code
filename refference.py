@@ -173,7 +173,7 @@ def using_sample(amount: int, lower: int, upper: int):
     # then we print the sorted version of the list weekly draw to put the numbers in order
     print(sorted(weekly_draw))
     return sorted(weekly_draw)
-using_sample(1, 6, 20)
+# using_sample(1, 6, 20)
 
 # this will let u use a function that when called, can calculate seconds,minutes, hours, milliseconds etc
 import datetime
@@ -219,3 +219,18 @@ def using_datetime():
             else:
                 print(f"{student} passed")
 
+
+
+
+def using_find():
+    my_str = "hello there"
+    position_of_letter:int = my_str.find("z")
+    return position_of_letter
+
+# print(using_find())
+
+import pandas as pd
+def doing_pandas():
+    data = pd.read_csv("db_00/bands.csv")
+    print(data)
+using_pandas()

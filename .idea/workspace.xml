@@ -5,15 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0b7cf04-460e-4b37-94f0-ad2d1c155217" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Part 7/spelling_checker2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part 7/submissions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/album.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/refrences.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week5/loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week5/making_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week6/debugging/debugging1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week6/debugging/debugging2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week6/debugging/debugging3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week6/project1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week6/project1_dic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week6/quiz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week7/electric_vehicles.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week7/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week7/personal_test_of_matplotlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week7/student_test_scores.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week7/user_selecting_a_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/importing_string_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/string_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part 7/your_own_programming_language.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/people_counter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/train_counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind/colours.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind/fonts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind/lesson1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind/padding_and_margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind/pirate flamingo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind/plant_website.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind/width_and_height.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 7/handling_json_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Part 7/handling_json_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 7/start_times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Part 7/start_times.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Part 7/who_cheated.py" beforeDir="false" afterPath="$PROJECT_DIR$/Part 7/who_cheated.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/refference.py" beforeDir="false" afterPath="$PROJECT_DIR$/refference.py" afterDir="false" />
     </list>
@@ -25,13 +43,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tailwind/plant_website.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -47,9 +69,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.people_counter.html.executor": "Run",
+    "Node.js.test.js.executor": "Run",
+    "Node.js.train_counter.js.executor": "Run",
     "Python.a_users_input.executor": "Run",
     "Python.course_statistics.executor": "Run",
     "Python.create.executor": "Run",
+    "Python.debugging1.executor": "Run",
+    "Python.debugging2.executor": "Run",
+    "Python.debugging3.executor": "Run",
     "Python.dice_roll.executor": "Run",
     "Python.dictionaries_further_learning.executor": "Run",
     "Python.dictionary_stored_in_a_file.executor": "Run",
@@ -59,29 +87,46 @@
     "Python.handling_json_files.executor": "Run",
     "Python.how_old.executor": "Run",
     "Python.hypotenuse.executor": "Run",
+    "Python.importing_string_helper.executor": "Run",
     "Python.incorrect lottery new.executor": "Run",
     "Python.incorrect lottery numbers.executor": "Run",
     "Python.learning_json.executor": "Run",
     "Python.lesson1.executor": "Run",
     "Python.lesson2.executor": "Run",
+    "Python.loop.executor": "Run",
     "Python.lottery.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.making_functions.executor": "Run",
     "Python.music_db.executor": "Run",
     "Python.password_generator1.executor": "Run",
+    "Python.personal_test_of_matplotlib.executor": "Run",
     "Python.playground00.executor": "Run",
+    "Python.poject1.executor": "Run",
     "Python.project1.executor": "Run",
+    "Python.quiz.executor": "Run",
     "Python.random_words.executor": "Run",
     "Python.refference.executor": "Run",
     "Python.screen_time.executor": "Run",
     "Python.special_characters.executor": "Run",
     "Python.starter.executor": "Run",
+    "Python.string_helper.executor": "Run",
     "Python.test_my_work.executor": "Run",
     "Python.test_original_work.executor": "Run",
+    "Python.user_selecting_a_car.executor": "Run",
     "Python.who_cheated.executor": "Run",
+    "Python.your_own_programming_language.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "NewFiles000",
     "last_opened_file_path": "/Users/Mae/git/learning_code/db_00",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,6 +134,7 @@
       <recent name="$PROJECT_DIR$/db_00" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lessons/week7" />
       <recent name="$PROJECT_DIR$/Lessons/week1" />
       <recent name="$PROJECT_DIR$/Part 7" />
     </key>
@@ -108,6 +154,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db_00/music_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -121,7 +168,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
       </set>
     </attachedChunks>
   </component>
@@ -133,7 +181,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756492973336</updated>
+      <workItem from="1760701644600" duration="1577000" />
+      <workItem from="1760708492350" duration="66000" />
+      <workItem from="1760708586235" duration="200000" />
+      <workItem from="1760713213403" duration="240000" />
+      <workItem from="1760720903518" duration="52000" />
+      <workItem from="1760866608334" duration="3393000" />
+      <workItem from="1760870582640" duration="7182000" />
+      <workItem from="1760955336869" duration="6494000" />
+      <workItem from="1761136515218" duration="7572000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learning_code$your_own_programming_language.coverage" NAME="your_own_programming_language Coverage Results" MODIFIED="1760962514729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part 7" />
+    <SUITE FILE_PATH="coverage/learning_code$personal_test_of_matplotlib.coverage" NAME="personal_test_of_matplotlib Coverage Results" MODIFIED="1761141588469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
+    <SUITE FILE_PATH="coverage/learning_code$refference.coverage" NAME="refference Coverage Results" MODIFIED="1761142999870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learning_code$main.coverage" NAME="main Coverage Results" MODIFIED="1761141270701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
+    <SUITE FILE_PATH="coverage/learning_code$music_db.coverage" NAME="music_db Coverage Results" MODIFIED="1760870715319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_00" />
+    <SUITE FILE_PATH="coverage/learning_code$user_selecting_a_car.coverage" NAME="user_selecting_a_car Coverage Results" MODIFIED="1761145406661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
   </component>
 </project>

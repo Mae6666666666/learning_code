@@ -15,12 +15,10 @@ from time import strptime
 
 
 def cheaters():
-    storing_submissions = []
-    storing_start_times = []
+
     student_db = {}
 
     with open("submissions.csv", "r") as submissions:
-        storing_submissions.append(submissions)
         for element in submissions:
             getting_rid_of_semicolon = element.replace("\n", "")
             giving_semicolon_a_space = getting_rid_of_semicolon.split(";")
