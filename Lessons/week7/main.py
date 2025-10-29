@@ -31,6 +31,7 @@ def average_for_all_subjects():
     print(f"Highest score for Maths: {student_data['Maths'].max()}")
     print(f"Highest score for IT: {student_data['IT'].max()}")
     print(f"Highest score for Science: {student_data['Science'].max()}")
+average_for_all_subjects()
 
 
 def user_input():
@@ -57,4 +58,4 @@ def tinkering_with_electric_vehicles():
     for thing in electric_vehicles_data["brand"]:
         if thing == "Ford":
             print(thing)
-tinkering_with_electric_vehicles()
+# tinkering_with_electric_vehicles()

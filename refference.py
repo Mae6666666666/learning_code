@@ -233,4 +233,33 @@ import pandas as pd
 def doing_pandas():
     data = pd.read_csv("db_00/bands.csv")
     print(data)
-using_pandas()
+# using_pandas()
+
+class Dog():
+    legs = 4
+    xPos = 0
+    yPos = 0
+    def jump(self):
+        self.yPos = self.yPos + 10
+
+    def walk(self, distance:int):
+        self.xPos = self.xPos + distance
+
+    def reset(self):
+        self.legs = 4
+        self.xPos = 0
+        self.yPos = 0
+
+
+
+def run_and_jump(animal:Dog):
+    animal.walk(3)
+    animal.jump()
+    animal.walk(3)
+
+
+def add(num1: int, num2: int):
+    return num1 + num2
+
+total = add(555, 222)
+print(total)
