@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0b7cf04-460e-4b37-94f0-ad2d1c155217" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lessons/week7/appending_lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/week7/atm_sim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/week7/lesson7_example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/week7/using_with_open.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/list_of_years.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/row_sums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/shopping_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/the_smallest_average_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/week7/simple_code_with_comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part8/clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part8/decreasing_counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part8/first_and_last_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part8/lunchcard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part8/passing_submissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part8/series.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part8/statistics_on_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part8/stopwatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part8/the_fastest_car.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/week7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/week7/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refference.py" beforeDir="false" afterPath="$PROJECT_DIR$/refference.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,15 +57,18 @@
     "Python.a_users_input.executor": "Run",
     "Python.appending_lists.executor": "Run",
     "Python.atm_sim.executor": "Run",
+    "Python.clock.executor": "Run",
     "Python.course_statistics.executor": "Run",
     "Python.create.executor": "Run",
     "Python.debugging1.executor": "Run",
     "Python.debugging2.executor": "Run",
     "Python.debugging3.executor": "Run",
+    "Python.decreasing_counter.executor": "Run",
     "Python.dice_roll.executor": "Run",
     "Python.dictionaries_further_learning.executor": "Run",
     "Python.dictionary_stored_in_a_file.executor": "Run",
     "Python.dictionary_stored_in_a_file_new.executor": "Run",
+    "Python.first_and_last_name.executor": "Run",
     "Python.fractions.executor": "Run",
     "Python.fractionsTest.executor": "Run",
     "Python.handling_json_files.executor": "Run",
@@ -81,9 +83,11 @@
     "Python.list_of_years.executor": "Run",
     "Python.loop.executor": "Run",
     "Python.lottery.executor": "Run",
+    "Python.lunchcard.executor": "Run",
     "Python.main.executor": "Run",
     "Python.making_functions.executor": "Run",
     "Python.music_db.executor": "Run",
+    "Python.passing_submissions.executor": "Run",
     "Python.password_generator1.executor": "Run",
     "Python.personal_test_of_matplotlib.executor": "Run",
     "Python.playground00.executor": "Run",
@@ -94,12 +98,17 @@
     "Python.refference.executor": "Run",
     "Python.row_sums.executor": "Run",
     "Python.screen_time.executor": "Run",
+    "Python.series.executor": "Run",
+    "Python.simple_code_with_comments.executor": "Run",
     "Python.special_characters.executor": "Run",
     "Python.starter.executor": "Run",
+    "Python.statistics_on_numbers.executor": "Run",
+    "Python.stopwatch.executor": "Run",
     "Python.string_helper.executor": "Run",
     "Python.test.executor": "Run",
     "Python.test_my_work.executor": "Run",
     "Python.test_original_work.executor": "Run",
+    "Python.the_fastest_car.executor": "Run",
     "Python.the_smallest_average_result.executor": "Run",
     "Python.user_selecting_a_car.executor": "Run",
     "Python.using_with_open.executor": "Run",
@@ -184,7 +193,17 @@
       <workItem from="1761206509109" duration="7939000" />
       <workItem from="1761296223809" duration="5577000" />
       <workItem from="1761560139068" duration="4132000" />
-      <workItem from="1761725113979" duration="7243000" />
+      <workItem from="1761725113979" duration="7492000" />
+      <workItem from="1761826655949" duration="2209000" />
+      <workItem from="1761841361145" duration="1595000" />
+      <workItem from="1761864303319" duration="598000" />
+      <workItem from="1761908072012" duration="9888000" />
+      <workItem from="1762082659201" duration="3372000" />
+      <workItem from="1762166467488" duration="10629000" />
+      <workItem from="1762249037194" duration="595000" />
+      <workItem from="1762348927320" duration="596000" />
+      <workItem from="1762422975267" duration="1408000" />
+      <workItem from="1762508448701" duration="14291000" />
     </task>
     <servers />
   </component>
@@ -192,18 +211,28 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learning_code$passing_submissions.coverage" NAME="passing_submissions Coverage Results" MODIFIED="1762524160623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
+    <SUITE FILE_PATH="coverage/learning_code$statistics_on_numbers.coverage" NAME="statistics_on_numbers Coverage Results" MODIFIED="1761920304439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
     <SUITE FILE_PATH="coverage/learning_code$your_own_programming_language.coverage" NAME="your_own_programming_language Coverage Results" MODIFIED="1760962514729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part 7" />
     <SUITE FILE_PATH="coverage/learning_code$personal_test_of_matplotlib.coverage" NAME="personal_test_of_matplotlib Coverage Results" MODIFIED="1761141588469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
     <SUITE FILE_PATH="coverage/learning_code$the_smallest_average_result.coverage" NAME="the_smallest_average_result Coverage Results" MODIFIED="1761566835377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
     <SUITE FILE_PATH="coverage/learning_code$refference.coverage" NAME="refference Coverage Results" MODIFIED="1761742077004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/learning_code$appending_lists.coverage" NAME="appending_lists Coverage Results" MODIFIED="1761213362196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
+    <SUITE FILE_PATH="coverage/learning_code$decreasing_counter.coverage" NAME="decreasing_counter Coverage Results" MODIFIED="1761842373718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
     <SUITE FILE_PATH="coverage/learning_code$main.coverage" NAME="main Coverage Results" MODIFIED="1761155362822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
+    <SUITE FILE_PATH="coverage/learning_code$appending_lists.coverage" NAME="appending_lists Coverage Results" MODIFIED="1761213362196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
     <SUITE FILE_PATH="coverage/learning_code$row_sums.coverage" NAME="row_sums Coverage Results" MODIFIED="1761567511621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
+    <SUITE FILE_PATH="coverage/learning_code$series.coverage" NAME="series Coverage Results" MODIFIED="1762517912300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
+    <SUITE FILE_PATH="coverage/learning_code$simple_code_with_comments.coverage" NAME="simple_code_with_comments Coverage Results" MODIFIED="1762423833744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
     <SUITE FILE_PATH="coverage/learning_code$list_of_years.coverage" NAME="list_of_years Coverage Results" MODIFIED="1761740981062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
     <SUITE FILE_PATH="coverage/learning_code$test.coverage" NAME="test Coverage Results" MODIFIED="1761300624406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fast" />
     <SUITE FILE_PATH="coverage/learning_code$using_with_open.coverage" NAME="using_with_open Coverage Results" MODIFIED="1761215478443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
+    <SUITE FILE_PATH="coverage/learning_code$the_fastest_car.coverage" NAME="the_fastest_car Coverage Results" MODIFIED="1762517099952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
+    <SUITE FILE_PATH="coverage/learning_code$stopwatch.coverage" NAME="stopwatch Coverage Results" MODIFIED="1762169192381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
     <SUITE FILE_PATH="coverage/learning_code$atm_sim.coverage" NAME="atm_sim Coverage Results" MODIFIED="1761737418655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
     <SUITE FILE_PATH="coverage/learning_code$music_db.coverage" NAME="music_db Coverage Results" MODIFIED="1760870715319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_00" />
+    <SUITE FILE_PATH="coverage/learning_code$first_and_last_name.coverage" NAME="first_and_last_name Coverage Results" MODIFIED="1761911288290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
+    <SUITE FILE_PATH="coverage/learning_code$clock.coverage" NAME="clock Coverage Results" MODIFIED="1762172426135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
     <SUITE FILE_PATH="coverage/learning_code$user_selecting_a_car.coverage" NAME="user_selecting_a_car Coverage Results" MODIFIED="1761145406661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/week7" />
+    <SUITE FILE_PATH="coverage/learning_code$lunchcard.coverage" NAME="lunchcard Coverage Results" MODIFIED="1762178605468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part8" />
   </component>
 </project>
