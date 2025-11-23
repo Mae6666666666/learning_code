@@ -1,39 +1,5 @@
-# Please write a program which functions as a dictionary. The user can type in new entries or look for existing entries.
-#
-# The program should work as follows:
-#
-# Sample output
-# 1 - Add word, 2 - Search, 3 - Quit
-# Function: 1
-# The word in Finnish: auto
-# The word in English: car
-# Dictionary entry added
-# 1 - Add word, 2 - Search, 3 - Quit
-# Function: 1
-# The word in Finnish: roska
-# The word in English: garbage
-# Dictionary entry added
-# 1 - Add word, 2 - Search, 3 - Quit
-# Function: 1
-# The word in Finnish: laukku
-# The word in English: bag
-# Dictionary entry added
-# 1 - Add word, 2 - Search, 3 - Quit
-# Function: 2
-# Search term: bag
-# roska - garbage
-# laukku - bag
-# 1 - Add word, 2 - Search, 3 - Quit
-# Function: 2
-# Search term: car
-# auto - car
-# 1 - Add word, 2 - Search, 3 - Quit
-# Function: 2
-# Search term: laukku
-# laukku - bag
-# 1 - Add word, 2 - Search, 3 - Quit
-# Function: 3
-# Bye!
+# french = part[0]
+# english = part[1]
 
 # print add word search quit etc
 # input name function
@@ -66,6 +32,16 @@
 
 # check every single step with print
 
+
+import inspect
+
+
+def print_var(var):
+    frame = inspect.currentframe().f_back
+    var_names = [name for name, val in frame.f_locals.items() if val is var]
+    name = var_names[0] if var_names else "<?>"
+    print(f"{name} = {var}")
+
 def word_searching_and_adding():
     while True:
         print("1 - Add word, 2 - Search, 3 - Quit")
@@ -73,18 +49,20 @@ def word_searching_and_adding():
         if function == 1:
             the_word_in_french = input("The word in French:")
             the_word_in_english = input("The word in English:")
+            string_2_write = f"{the_word_in_french}, {the_word_in_english}\n"
             with open("dictionary.txt", "w") as word_dictionary:
-                word_dictionary.write(the_word_in_french)
-                word_dictionary.write(the_word_in_english)
-                word_dictionary.write("\n")
+                # for words in word_dictionary:
+                #     adding_space = words.split(",")
+                #     print(adding_space)
+                word_dictionary.write(string_2_write)
+
         elif function == 2:
-            ask_for_word = input("Search term:")
+            ask_for_word = input("Word you want to search:")
             with open("dictionary.txt") as word_dictionary:
-                reading_in_the_file = word_dictionary.read()
-                if ask_for_word in reading_in_the_file:
-                    print(f"{ask_for_word} - other word corresponding")
-                else:
-                    print(f"{ask_for_word} could not be found")
+                for word_find in word_dictionary:
+                    print(word_find)
+                    if word_find == ask_for_word:
+                        print(f"{ask_for_word} - french")
         else:
             print("Bye!")
             break

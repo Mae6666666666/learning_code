@@ -28,12 +28,11 @@ def sorting_the_lottery():
             print(f"breaking_up_numbers: {breaking_up_numbers}")
             print(f"numbers: {numbers}")
             getting_rid_of_week = breaking_up_numbers.pop(0)
-
             for individuals in breaking_up_numbers:
-                print(individuals)
+                # print(f"indiviuals: {individuals}")
                 from_string_to_int = int(individuals)
                 print(from_string_to_int)
-                if numbers >= 1 and numbers <= 39:
+                if individuals >= 1 and numbers <= 39:
                     with open("correct_numbers.csv", "w") as correct_lottery:
                         correct_lottery.write(numbers)
                         print(numbers)
