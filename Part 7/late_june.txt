@@ -1,0 +1,5 @@
+time period: 21.03.2009-2009-03-23 00:00:00
+total minutes: 9
+average: 2.0
+1 1 1
+2 2 2

@@ -1,0 +1,41 @@
+
+[
+  {
+    "video_games": {
+      "Cuphead": {
+        "name": "Cuphead",
+        "average_time_completion": 4,
+        "price": 12.99,
+        "age_rating": 9,
+        "overall_rating_out_of_10": 9.5
+      },
+      "Undertale": {
+        "name": "Undertale",
+        "average_time_completion": 6,
+        "price": 15.99,
+        "age_rating": 10,
+        "overall_rating_out_of_10": 8.5
+      },
+      "Bendy And The Ink Machine": {
+        "name": "Bendy And The Ink Machine",
+        "average_time_completion": 4,
+        "price": 16,
+        "age_rating": 12,
+        "overall_rating_out_of_10": 10
+      },
+      "Splatoon": {
+        "name": "Splatoon",
+        "average_time_completion": 20,
+        "price": 42.99,
+        "age_rating": 12,
+        "overall_rating_out_of_10": 7
+      },
+      "Roblox": {
+        "name": "Roblox",
+        "average_time_completion": "none",
+        "price": "free",
+        "age_rating": 6,
+        "overall_rating_out_of_10": 5
+      }
+    }
+  }]

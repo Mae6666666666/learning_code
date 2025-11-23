@@ -1,0 +1,16 @@
+from Pet import Pet
+
+
+class Person:
+    def __init__(self, name_temp: str, pet: Pet):
+        self.name = name_temp
+        self.pet = pet
+
+    def __str__(self) -> str:
+        return f"{self.name}, whose pal is {self.pet.pet_name}, a {self.pet.breed}"
+
+
+hulda = Pet("Hulda", "mixed-breed dog")
+levi = Person("Levi", hulda)
+
+print(levi)

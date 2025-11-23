@@ -1,0 +1,19 @@
+{
+  "genres":{
+    "rap": {
+      "name": "Without me",
+      "artist": "Eminem",
+      "lyric" : "It'll be so empty without me"
+    },
+    "pop": {
+      "name": "Feel Good Inc.",
+      "artist": "Gorillaz",
+      "lyric": "City's breaking down on a camel's back..."
+    },
+    "alternative": {
+      "name": "Sleep",
+      "artist": "My Chemical Romance",
+      "lyric": "Some say now suffer all the children, and walk away a saviour..."
+    }
+  }
+}

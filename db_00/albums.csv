@@ -1,0 +1,8 @@
+album_id,band_id,title,release_date,label
+A0001,B0001,Demon Days,2005-05-23,Parlophone
+A0002,B0001,Plastic Beach,2010-03-03,Parlophone
+A0010,B0002,OK Computer,1997-05-21,Parlophone
+A0011,B0002,In Rainbows,2007-10-10,XL
+A0020,B0003,Discovery,2001-03-12,Virgin
+A0030,B0004,AM,2013-09-09,Domino
+A0040,B0005,Abbey Road,1969-09-26,Apple

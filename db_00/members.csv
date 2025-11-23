@@ -1,0 +1,11 @@
+member_id,band_id,name,role,start_year,end_year
+M0001,B0001,Damon Albarn,"Vocals, Keys",1998,
+M0002,B0001,Jamie Hewlett,Visuals,1998,
+M0010,B0002,Thom Yorke,"Vocals, Guitar",1985,
+M0011,B0002,Jonny Greenwood,"Guitar, Keys",1985,
+M0020,B0003,Thomas Bangalter,Producer,1993,2021.0
+M0021,B0003,Guy-Manuel de Homem-Christo,Producer,1993,2021.0
+M0030,B0004,Alex Turner,"Vocals, Guitar",2002,
+M0031,B0004,Matt Helders,Drums,2002,
+M0040,B0005,John Lennon,"Vocals, Guitar",1960,1970.0
+M0041,B0005,Paul McCartney,"Vocals, Bass",1960,1970.0
